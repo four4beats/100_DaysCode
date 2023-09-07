@@ -11,3 +11,16 @@ elif year % 400 == 0:
     print("Leap year.")
 else:
     print("Not leap year.")
+
+# Angela suggests using a flow chart to visualize the logic.
+# Angela's solution code looked like this:
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print("Leap year.")
+#         else:
+#             print("Not leap year.")
+#     else:
+#         print("Leap year.")
+# else:
+#     print("Not leap year.")
